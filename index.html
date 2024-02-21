@@ -3,9 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="text/javascript" src="//acortar.org/gen-js"></script>
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/Presentacion.css">
+    <link rel="stylesheet" href="styles/presentacion.css" />
+    <link rel="stylesheet" href="styles/clock.css" />
+    <link rel="stylesheet" href="styles/general.css" />
+    <link rel="stylesheet" href="styles/container.css">
     <title>Mi boda</title>
   </head>
   <body>
@@ -23,18 +27,49 @@
         </ul>
       </nav>
     </header>
-    <section id="presentacion">
-        <div class="cont_img"></div>
-    </section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
-    <section></section>
+
+    <main>
+      <section class="contenedor" id="presentacion">
+        <div class="contenedor_win" id="cont_img">
+          <h2>Mitzy & Brian</h2>
+          <div id="countdown">
+            <div class="countdown-item countdown-item-days">
+              <div class="countdown-number"></div>
+              <div class="countdown-item-label">Días</div>
+            </div>
+            <p>:</p>
+            <div class="countdown-item countdown-item-hours">
+              <div class="countdown-number"></div>
+              <div class="countdown-item-label">Horas</div>
+            </div>
+            <p>:</p>
+            <div class="countdown-item countdown-item-minutes">
+              <div class="countdown-number"></div>
+              <div class="countdown-item-label">Minutos</div>
+            </div>
+            <p>:</p>
+            <div class="countdown-item countdown-item-seconds">
+              <div class="countdown-number"></div>
+              <div class="countdown-item-label">Segundos</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contenedor">
+        <div class="contenedor_win">Hola soy sebas</div>
+      </section>
+      <section class="contenedor"></section>
+      <section class="contenedor"></section>
+      <section class="contenedor"></section>
+      <section class="contenedor"></section>
+      <section class="contenedor"></section>
+      <section class="contenedor"></section>
+      <section class="contenedor"></section>
+      <section class="contenedor"></section>
+    </main>
+
     <footer></footer>
+    
+    <script type="module" src="/app.js"></script>
   </body>
 </html>

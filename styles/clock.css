@@ -1,0 +1,41 @@
+#countdown {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 20px;
+    color: #fff;
+  }
+  .countdown-item {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 3rem;
+    padding: 10px;
+    color: #fff;
+    text-shadow: 3px 0px 6px #000000;
+  }
+  .countdown-item-label {
+    font-size: 2rem;
+    margin-top: 5px;
+    color: #fff;
+  }
+  .countdown-item-days .countdown-item-label {
+    display: block;
+  }
+
+  #cont_img{
+    text-align: center;
+  }
+
+  #cont_img h2 {
+    color: #fff;
+    padding-top: 1rem;
+    font-size: 5rem;
+    text-shadow: 3px 0px 6px #000000;
+  }
+
+  #countdown p{
+    text-shadow: 3px 0px 6px #000000;
+    padding: 0 1rem 0 1rem;
+  }
