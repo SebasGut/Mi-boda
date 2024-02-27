@@ -5,3 +5,15 @@
     background-position: center top;
     
 }
+
+#cont_img{
+    text-align: center;
+  }
+
+  #cont_img h2 {
+    color: #fff;
+    padding-top: 1rem;
+    font-size: 6rem;
+    text-shadow: 3px 0px 6px #000000;
+    font-family: var(--great-sand);
+  }

@@ -1,0 +1,17 @@
+.mensajes{
+    background-color: #cd966c;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.parrafo_mensaje{
+    font-size: 1.5rem;
+    padding-bottom:1rem ;
+    font-family: var(--montserrat-sand);
+}
+
+.mensajes h3{
+    font-size: 4rem;
+    padding-top: 1rem;
+    font-family: var(--pinyon-sand);
+}

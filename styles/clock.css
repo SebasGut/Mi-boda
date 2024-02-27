@@ -23,18 +23,6 @@
   .countdown-item-days .countdown-item-label {
     display: block;
   }
-
-  #cont_img{
-    text-align: center;
-  }
-
-  #cont_img h2 {
-    color: #fff;
-    padding-top: 1rem;
-    font-size: 5rem;
-    text-shadow: 3px 0px 6px #000000;
-  }
-
   #countdown p{
     text-shadow: 3px 0px 6px #000000;
     padding: 0 1rem 0 1rem;
