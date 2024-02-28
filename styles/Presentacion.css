@@ -1,19 +1,23 @@
-#cont_img{
-    background-image: url("/img/pareja.jpg");
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center top;
-    
+#img_presentacion {
+  background-image: url("/img/pareja.jpg");
 }
 
-#cont_img{
-    text-align: center;
-  }
+.cont_img {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
 
-  #cont_img h2 {
-    color: #fff;
-    padding-top: 1rem;
-    font-size: 6rem;
-    text-shadow: 3px 0px 6px #000000;
-    font-family: var(--great-sand);
-  }
+}
+
+.cont_img {
+  text-align: center;
+}
+
+.cont_img h2 {
+  color: #fff;
+  padding-top: 1rem;
+  font-size: 6rem;
+  text-shadow: 3px 0px 6px #000000;
+  font-family: var(--great-sand);
+}
