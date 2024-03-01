@@ -1,0 +1,12 @@
+.imagenesbody{
+    text-align: center;
+    background-image: url(/img/demo2.jpg);
+    background-size:auto;
+    background-repeat:no-repeat;
+    background-position: center top;
+    height:100vh;
+}
+
+.imagenesbody p{
+    padding-top: 8rem;
+}
