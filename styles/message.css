@@ -1,16 +1,16 @@
-.mensajes{
+.message{
     background-color: #e5d1be;
     text-align: center;
     box-sizing: border-box;
 }
 
-.parrafo_mensaje{
+.message_paragraph{
     font-size: 2vw;
     padding-bottom:1rem ;
     font-family: var(--montserrat-sand);
 }
 
-.mensajes h3{
+.message h3{
     font-size: 6vw;
     padding-top: 1rem;
     font-family: var(--pinyon-sand);

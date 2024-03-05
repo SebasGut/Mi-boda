@@ -1,0 +1,23 @@
+:root{
+    --josefin-sand:"Josefin Sans", sans-serif;
+    --montserrat-sand: "Montserrat", sans-serif;
+    --great-sand: "Great Vibes", cursive;
+    --pinyon-sand :"Pinyon Script", cursive;
+}
+
+main {
+    background-color: #fffbf6;
+}
+
+.img_body{
+    text-align: center;
+    background-image: url(/img/demo2.jpg);
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center top;
+    height:100vh;
+}
+
+.img_body p{
+    padding-top: 8rem;
+}
