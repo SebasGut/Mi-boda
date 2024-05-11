@@ -1,8 +1,4 @@
 .container{
-    width: 100%;
+    width: 100vw;
 }
 
-.container_width{
-    width: 80vw;
-    margin: auto;
-}

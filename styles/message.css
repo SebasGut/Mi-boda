@@ -1,17 +1,32 @@
 .message{
-    background-color: #e5d1be;
-    text-align: center;
-    box-sizing: border-box;
+    background-color: #EAD8C0 ;
 }
 
 .message_paragraph{
-    font-size: 2vw;
-    padding-bottom:1rem ;
-    font-family: var(--montserrat-sand);
+    font-family: var(--pinyon-sand);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.4rem;
 }
 
 .message h3{
-    font-size: 6vw;
-    padding-top: 1rem;
-    font-family: var(--pinyon-sand);
+    font-family: var(--great-sand);
+    font-size: 1.7rem;
+}
+
+#mes_by_one{
+    background-image: url(/img/demo2.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+#mes_by_one .message_paragraph{
+    text-align: center;
+    padding-top: 2rem;
+    font-size: 3rem;
+    color: #fff;
+    text-shadow: 1px 0px 2px #000000;
 }

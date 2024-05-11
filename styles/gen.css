@@ -6,18 +6,6 @@
 }
 
 main {
-    background-color: #fffbf6;
+    background-color: #FFF2E1;
 }
 
-.img_body{
-    text-align: center;
-    background-image: url(../img/demo2.jpg);
-    background-size:cover;
-    background-repeat:no-repeat;
-    background-position: center top;
-    height:100vh;
-}
-
-.img_body p{
-    padding-top: 8rem;
-}
