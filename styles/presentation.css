@@ -1,6 +1,6 @@
 #cont_img {
     height: 100vh;
-    background-image: url(/img/presentation.jpg);
+    background-image: url("../img/presentation.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
