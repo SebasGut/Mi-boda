@@ -1,32 +1,34 @@
-.message{
-    background-color: #EAD8C0 ;
+.message {
+    background-color: #EAD8C0;
 }
 
-.message_paragraph{
-    font-family: var(--pinyon-sand);
+.message_paragraph {
+    font-family: var(--montserrat-sand);
     text-align: center;
     padding: 1rem;
-    font-size: 1.4rem;
+    font-size: 1rem;
 }
 
-.message h3{
+.message h3 {
     font-family: var(--great-sand);
     font-size: 1.7rem;
 }
 
-#mes_by_one{
+#mes_by_one {
     background-image: url(/img/demo2.jpg);
-    height: 100vh;
+    height: 30vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    display: flex;
+    align-items: end;
 }
 
-#mes_by_one .message_paragraph{
+#mes_by_one .message_paragraph {
     text-align: center;
-    padding-top: 2rem;
-    font-size: 3rem;
+    padding: auto;
+    font-size: 2rem;
     color: #fff;
-    text-shadow: 1px 0px 2px #000000;
+    text-shadow: 1px 0px 0px rgba(0, 0, 0, 2);
 }

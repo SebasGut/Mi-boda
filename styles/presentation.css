@@ -1,6 +1,6 @@
 #cont_img {
     height: 100vh;
-    background-image: url(/img/pareja.jpg);
+    background-image: url(/img/presentation.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,7 +9,8 @@
 
 #cont_img h2 {
     padding-top: 2rem;
-    font-size: 9vw;
+    font-size: 15vw;
     color: #fff;
     text-shadow: 1px 0px 2px #000000;
+    font-family: var(--great-sand);
 }
