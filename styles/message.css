@@ -6,12 +6,12 @@
     font-family: var(--montserrat-sand);
     text-align: center;
     padding: 1rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 .message h3 {
     font-family: var(--great-sand);
-    font-size: 1.7rem;
+    font-size: 3rem;
 }
 
 #mes_by_one {
@@ -26,7 +26,7 @@
 }
 
 #mes_by_one .message_paragraph {
-    text-align: center;
+    width: 100%;
     padding: auto;
     font-size: 2rem;
     color: #fff;

@@ -5,11 +5,14 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #cont_img h2 {
-    padding-top: 2rem;
-    font-size: 15vw;
+    padding-top: 10vw;
+    font-size: 4rem;
     color: #fff;
     text-shadow: 1px 0px 2px #000000;
     font-family: var(--great-sand);
