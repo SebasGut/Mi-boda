@@ -29,16 +29,3 @@
 .hotel_cont p{
     margin-top: 1rem;
 }
-
-.hotel_cont a{
-    color: black;
-    text-decoration: none;
-    margin:20px;
-    padding: 15px;
-    background-color:coral;
-}
-
-.hotel_cont a:active{
-    animation-delay: 1000ms;
-    background-color: lightblue;
-}

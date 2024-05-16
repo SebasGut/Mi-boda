@@ -1,11 +1,25 @@
-:root{
-    --josefin-sand:"Josefin Sans", sans-serif;
+:root {
+    --josefin-sand: "Josefin Sans", sans-serif;
     --montserrat-sand: "Montserrat", sans-serif;
     --great-sand: "Great Vibes", cursive;
-    --pinyon-sand :"Pinyon Script", cursive;
+    --pinyon-sand: "Pinyon Script", cursive;
 }
 
 main {
     background-color: #FFF2E1;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    margin: 20px;
+    padding: 15px;
+    background-color: lightpink;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+
+a:active {
+    animation-delay: 1000ms;
+    background-color: lightblue;
+}
