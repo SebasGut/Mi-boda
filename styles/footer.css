@@ -1,0 +1,18 @@
+footer{
+    padding: 1rem;
+    background-color: brown;
+    font-family: var(--montserrat-sand);
+    text-align: center;
+}
+
+footer p{
+    font-size: .9rem;
+}
+
+.emoji{
+    margin-top: 1rem;
+}
+
+.credits{
+    margin-bottom: 2rem;
+}

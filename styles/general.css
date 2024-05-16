@@ -9,7 +9,7 @@ main {
     background-color: #FFF2E1;
 }
 
-a {
+.botton {
     color: black;
     text-decoration: none;
     margin: 20px;
@@ -19,7 +19,7 @@ a {
     border: 2px solid black;
 }
 
-a:active {
+.botton:active {
     animation-delay: 1000ms;
     background-color: lightblue;
 }
