@@ -1,10 +1,16 @@
 .itinerario{
     text-align: center;
     background-color: #b9a280;
+    padding-bottom: 1rem;
 }
 
 .itinerario h3{
     font-size: 2rem;
     font-family: var(--montserrat-sand);
-    padding-top: 1rem;    
+    padding-top: 1rem; 
+    padding-bottom: 1rem;   
+}
+
+.itinerario img{
+    width: 80%;
 }
