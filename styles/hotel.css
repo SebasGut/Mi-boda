@@ -29,3 +29,9 @@
 .hotel_cont p{
     margin-top: 1rem;
 }
+
+@media only screen and (min-width: 720px){
+    .hotel_cont img{
+        width: 40%;
+    }
+}

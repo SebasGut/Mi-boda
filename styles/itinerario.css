@@ -14,3 +14,9 @@
 .itinerario img{
     width: 80%;
 }
+
+@media only screen and (min-width: 720px){
+    .itinerario img{
+        width: 30%;
+    }
+}
