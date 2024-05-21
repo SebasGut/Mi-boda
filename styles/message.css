@@ -32,3 +32,17 @@
     color: #fff;
     text-shadow: 1px 0px 0px rgba(0, 0, 0, 2);
 }
+
+@media only screen and (min-width: 720px) {
+    .message h3 {
+        font-size: 4rem;
+    }
+
+    .message_paragraph {
+        font-size: 2rem;
+    }
+
+    #mes_by_one {
+        height: 500px;
+    }
+}

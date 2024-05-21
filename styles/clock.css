@@ -30,3 +30,13 @@
     font-size: 6vw;
     font-family: var(--montserrat-sand);
   }
+
+  @media only screen and (min-width: 720px){
+    .countdown-item{
+      font-size: 2rem;
+    }
+
+    .countdown-item-label{
+      font-size: 1.5rem;
+    }
+  }
