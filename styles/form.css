@@ -1,10 +1,12 @@
 .form_container {
+    border-top: 3px solid black;
     display: flex;
     align-items: center;
     flex-direction: column;
-    height: 100vh;
+    height: 120vh;
     align-items: center;
     padding-bottom: 1rem;
+    padding-top: 2rem;
 }
 
 iframe {

@@ -1,33 +1,39 @@
 #hotel{
-    text-align: center;
+    text-align:justify;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
     font-family: var(--montserrat-sand);
+    background-image: url("../img/backparty.jpg");
 }
 
 #hotel h3{
     font-size: 2rem;
+    margin-top: 1rem;
+    color: #fffb00;
+    text-shadow: 3px 0px 0px rgba(0, 0, 0, 2);
 }
 
 .hotel_cont{
     width: 100%;
-    background-color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
 
 .hotel_cont img{
     width: 70%;
-    margin-top: 2rem;
     border-radius: 5px;
 }
 
 .hotel_cont p{
     margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 80%;
+    color: #fffb00;
+    text-shadow: 3px 0px 0px rgba(0, 0, 0, 2);
 }
 
 @media only screen and (min-width: 720px){
