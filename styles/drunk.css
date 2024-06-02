@@ -1,21 +1,21 @@
-#hotel{
-    text-align:justify;
+#hotel {
+    text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
     font-family: var(--montserrat-sand);
     background-image: url("../img/backparty.jpg");
+    font-weight: 700;
+    text-shadow: 0px 0px 2px #fff;
 }
 
-#hotel h3{
+#hotel h3 {
     font-size: 2rem;
     margin-top: 1rem;
-    color: #fffb00;
-    text-shadow: 3px 0px 0px rgba(0, 0, 0, 2);
 }
 
-.hotel_cont{
+.hotel_cont {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -23,21 +23,20 @@
     margin-top: 1rem;
 }
 
-.hotel_cont img{
+.hotel_cont img {
     width: 70%;
     border-radius: 5px;
 }
 
-.hotel_cont p{
+.hotel_cont p {
+    font-size: 1.3rem;
     margin-top: 1rem;
     margin-bottom: 1rem;
     width: 80%;
-    color: #fffb00;
-    text-shadow: 3px 0px 0px rgba(0, 0, 0, 2);
 }
 
-@media only screen and (min-width: 720px){
-    .hotel_cont img{
+@media only screen and (min-width: 720px) {
+    .hotel_cont img {
         width: 40%;
     }
 }

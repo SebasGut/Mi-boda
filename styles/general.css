@@ -6,7 +6,7 @@
 }
 
 main {
-    background-color: #FFF2E1;
+    background-color: #000000;
 }
 
 .botton {
@@ -14,12 +14,12 @@ main {
     text-decoration: none;
     margin: 20px;
     padding: 15px;
-    background-color: lightpink;
+    background-color:  #d0a848;
     border-radius: 5px;
     border: 2px solid black;
 }
 
 .botton:active {
     animation-delay: 1000ms;
-    background-color: lightblue;
+    background-color: #1c1cff;
 }

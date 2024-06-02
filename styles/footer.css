@@ -1,8 +1,9 @@
 footer{
     padding: 1rem;
-    background-color: rgb(181, 100, 57);
+    background-color: #d0a848;
     font-family: var(--montserrat-sand);
     text-align: center;
+    font-weight: 600;
 }
 
 footer p{

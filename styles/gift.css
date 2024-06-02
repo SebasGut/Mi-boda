@@ -5,6 +5,8 @@
     align-items: center;
     padding-top: 1rem;
     font-family: var(--montserrat-sand);
+    color: #000000;
+    background-color: #d0a848;
 }
 
 .gift_cont h3{
@@ -30,6 +32,7 @@
     justify-content: space-around;
     height: 30px;
     width: 120px;
+    background-color: #d4c298;
 }
 
 .card_transfer {

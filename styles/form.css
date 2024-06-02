@@ -1,5 +1,5 @@
 .form_container {
-    border-top: 3px solid black;
+    border-top: 1px solid #d0a848;
     display: flex;
     align-items: center;
     flex-direction: column;
