@@ -1,27 +1,15 @@
-.itinerario{
+.itinerario {
     text-align: center;
     background-image: url("../img/program.png");
     background-repeat: no-repeat;
     background-position: center;
-    background-size:contain;
+    background-size: contain;
     padding-bottom: 1rem;
     height: 90vh;
 }
 
-.itinerario h3{
-    font-size: 2rem;
-    font-family: var(--montserrat-sand);
-    padding-top: 1rem; 
-    padding-bottom: 1rem;   
-}
-
-.itinerario img{
-    width: 80%;
-    display: none;
-}
-
-@media only screen and (min-width: 720px){
-    .itinerario img{
-        width: 30%;
+@media only screen and (min-width: 720px) {
+    .itinerario {
+        height: 150vh;
     }
 }

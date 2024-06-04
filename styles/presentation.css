@@ -1,4 +1,4 @@
-#cont_img {
+.pre_img {
     height: 100vh;
     background-image: url("../img/presentation2.jpg");
     background-position: center;
@@ -12,24 +12,26 @@
     text-shadow: 0px 0px 4px #ffd500;
 }
 
-#cont_img p{
+.pre_img p {
     margin: 1rem 0;
     font-size: 1.5rem;
 }
 
-#cont_img h2 {
+.pre_img h2 {
     font-size: 4rem;
     font-family: var(--great-sand);
 }
 
 
 @media only screen and (min-width: 720px) {
-    #cont_img{
-        height: 800px;
+    .pre_img {
+        height: 100vh;
+        padding-top: 10vh;
     }
-    
-    #cont_img h2{
+
+    .pre_img h2 {
         font-size: 4rem;
         padding-top: 1rem;
     }
-  }
+
+}

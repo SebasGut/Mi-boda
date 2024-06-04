@@ -11,14 +11,16 @@
 
 .gift_cont h3{
     font-size: 2rem;
+    font-weight: 500;
 }
 
 .gift_botons{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 1rem;
     padding-bottom: 1rem;
+    width: 100%;
 }
 
 .gift_botons img{
@@ -35,19 +37,9 @@
     background-color: #d4c298;
 }
 
-.card_transfer {
-    display: flex;
-    align-items: center;
-    background-color: white;
-    margin: 1rem 0 1rem 0;
-}
-
-.card_transfer img{
-    height: 140px;
-}
-
-.trans_paragraph{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+@media only screen and (min-width: 720px){
+    .gift_botons a{
+        width: 30%;
+        font-size: 1.5rem;
+    }
 }

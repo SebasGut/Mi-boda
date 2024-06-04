@@ -16,7 +16,7 @@
     color: #d0a848;
 }
 
-#mes_by_one {
+.img_body {
     background-image: url("../img/mensaje1.jpg");
     height: 30vh;
     background-position: center;
@@ -27,7 +27,7 @@
     align-items: end;
 }
 
-#mes_by_one .message_paragraph {
+.img_body .message_paragraph {
     width: 100%;
     padding: auto;
     font-size: 1.5rem;
@@ -37,6 +37,13 @@
 }
 
 @media only screen and (min-width: 720px) {
+    .img_body{
+        height: 100vh;
+    }
+    .img_body .message_paragraph {
+        font-size: 3rem;
+    }
+
     .message h3 {
         font-size: 4rem;
     }

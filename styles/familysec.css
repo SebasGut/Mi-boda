@@ -1,4 +1,4 @@
-#family_container{
+#family_container {
     color: #fff;
     text-align: center;
     display: flex;
@@ -9,30 +9,41 @@
     border-bottom: 1px solid #d0a848;
 }
 
-.top_paragraph{
-    width:83%;
+.top_paragraph {
+    width: 83%;
 }
 
-.family-card{
+.family-card {
     border: none;
     background-color: #181818;
     width: 60%;
 }
 
-.family-card img{
+.family-card img {
     border-radius: 100%;
     width: 70%;
 }
 
-#family_container h3{
+#family_container h3 {
     color: #d0a848;
     font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
 
-.girl_dads{
+.girl_dads {
     margin-bottom: 2rem;
 }
 
-.dads p{
+.dads p {
     margin: .3rem;
+}
+
+@media only screen and (min-width: 720px) {
+    .family-card {
+        width: 30%;
+    }
+
+    .family-card img {
+        width: 50%;
+    }
 }
