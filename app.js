@@ -37,13 +37,4 @@ function toggleMusic() {
 }
 
 buttonMusic.addEventListener("click", toggleMusic);
-
-setTimeout(()=>{
-  player.pause();
-  console.log("pausa");
-},"1000")
-
-setTimeout(()=>{
-  player.play();
-  console.log("play");
-},"2000")
+addEventListener("touchstart", player.play());
