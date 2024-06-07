@@ -37,3 +37,15 @@ function toggleMusic() {
 }
 
 buttonMusic.addEventListener("click", toggleMusic);
+
+// Function to show the welcome message and play music on accept
+function showWelcomeMessage() {
+  const welcomeMessage = window.alert("Bienvenido a la invitacion de Mitzi & Brian");
+  if (welcomeMessage) {
+    const player = document.getElementById("audio-player");
+    player.play();
+  }
+}
+
+// Show the welcome message when the page loads
+window.onload = showWelcomeMessage;
