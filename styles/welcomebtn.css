@@ -1,0 +1,38 @@
+#welcome_mesagge {
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000000;
+    color: #d0a848;
+    padding: 20px;
+    border: 1px solid #d0a848;
+    border-radius: 5px;
+    text-align: center;
+    z-index: 9999;
+}
+
+#welcome_mesagge h1{
+    font-family: var(--great-sand);
+    font-size: 8vh;
+}
+
+#welcome_mesagge p{
+    font-family: var(--montserrat-sand);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+#play_welcome_button {
+    background-color: #d0a848;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#play_welcome_button:hover {
+    background-color: #000000;
+    color: #d0a848;
+}
