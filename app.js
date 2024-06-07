@@ -21,3 +21,19 @@ setInterval(() => {
     ".countdown-item-seconds .countdown-number"
   ).textContent = seconds;
 }, 1000);
+
+//button music
+const player = document.getElementById("audio-player");
+const buttonMusic = document.getElementById("music-button");
+
+function toggleMusic() {
+  if (player.paused) {
+    player.play();
+    buttonMusic.textContent = "⏸️";
+  } else {
+    player.pause();
+    buttonMusic.textContent = "▶️";
+  }
+}
+
+buttonMusic.addEventListener("click", toggleMusic);
