@@ -40,10 +40,14 @@ buttonMusic.addEventListener("click", toggleMusic);
 
 // Function to show the welcome message and play music on accept
 function showWelcomeMessage() {
-  const welcomeMessage = window.alert("Bienvenido a la invitacion de Mitzi & Brian");
-  if (welcomeMessage) {
+  const welcomeMessage = confirm("Bienvenido a la invitacion de Mitzi & Brian");
+  if (welcomeMessage || !welcomeMessage) {
     const player = document.getElementById("audio-player");
-    player.play();
+    player.pause();
+    setTimeout(() => {
+      player.play();
+      console.log("espero 1 segundo")
+    }, "1000");
   }
 }
 
