@@ -10,10 +10,7 @@ footer p{
     font-size: .9rem;
 }
 
-.emoji{
-    margin-top: 1rem;
+footer img{
+    width: 100px;
 }
 
-.credits{
-    margin-bottom: 2rem;
-}

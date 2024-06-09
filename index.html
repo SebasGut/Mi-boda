@@ -28,31 +28,21 @@
   <link rel="stylesheet" href="styles/familysec.css" />
   <link rel="stylesheet" href="styles/music.css" />
   <link rel="stylesheet" href="styles/welcomebtn.css">
+  <link rel="stylesheet" href="styles/goodfather.css">
   <title>Mi boda</title>
 </head>
 
 <body>
-  <header>
-    <nav>
-      <div class="logo">
-        Mitzy & Brian
-        <p class="corazon">❤</p>
-      </div>
-      <ul class="nav_links">
-        <li class="nav_link">Direccion</li>
-        <li class="nav_link">Itinerario</li>
-        <li class="nav_link">Confirmación</li>
-        <li class="nav_link">Mesa de Regalos</li>
-      </ul>
-    </nav>
-  </header>
-
   <main>
-    <div id="welcome_mesagge">
-      <h1>Bienvenido</h1>
-      <p>Invitación a la boda de Mitzi & Brian</p>
-      <button id="play_welcome_button">Aceptar</button>
+    <!--Welcome message and glass efect-->
+    <div id="glass_efect" class="glass">
+      <div id="welcome_mesagge">
+        <h1>Bienvenido</h1>
+        <p>Invitación a la boda de Mitzi & Brian</p>
+        <button id="play_welcome_button">Aceptar</button>
+      </div>
     </div>
+    <!--precentation-->
     <section class="container" id="presentation">
       <div class="pre_img">
         <p>Nos casamos</p>
@@ -81,6 +71,7 @@
         </div>
       </div>
     </section>
+    <!--First message paragraph-->
     <section class="container">
       <div class="message">
         <h3 class="message_paragraph">
@@ -95,6 +86,7 @@
         </p>
       </div>
     </section>
+    <!--Seond message paragraph-->
     <section class="container">
       <div class="img_body">
         <p class="message_paragraph">
@@ -102,6 +94,7 @@
         </p>
       </div>
     </section>
+    <!--Cards section-->
     <section class="container">
       <div class="sec_cards">
         <h4>Donde & Cuando</h4>
@@ -144,6 +137,7 @@
         </div>
       </div>
     </section>
+    <!--Drunk realese-->
     <section class="container" id="drunk">
       <h3>Cocteleria pre fiesta</h3>
       <div class="drunk_cont">
@@ -154,9 +148,11 @@
         </p>
       </div>
     </section>
+    <!--program section-->
     <section class="container">
       <div class="itinerario"></div>
     </section>
+    <!--outfit section-->
     <section class="container">
       <div class="outfit">
         <h3>Codigo de vestimenta</h3>
@@ -164,6 +160,7 @@
         <img src="img/outfit.png" alt="Codigo de vestimenta" />
       </div>
     </section>
+    <!--Dad's card-->
     <section class="container" id="family_container">
       <div class="top_paragraph">
         <h3>CON LA BENDICIÓN DE DIOS Y NUESTROS PADRES</h3>
@@ -187,6 +184,7 @@
         </div>
       </div>
     </section>
+    <!--photo section-->
     <section class="container">
       <div class="us">
         <h3>Nosotros</h3>
@@ -201,6 +199,53 @@
         </div>
       </div>
     </section>
+    <!--Goodfathers section-->
+    <section class="container goodfa">
+      <div class="top_paragraph">
+        <h3>Padrinos y Madrinas</h3>
+      </div>
+      <!--Goodfathers card-->
+      <div class="family-card card">
+        <img src="img/church.jpg" alt="imagen de pareja" />
+        <div class="dads girl_dads">
+          <p>Maria Guadalupe Hernández Peña</p>
+          <p>&</p>
+          <p>Rolando Sandoval Cruz</p>
+          <p>- Velación -</p>
+        </div>
+      </div>
+      <!--Goodfathers card-->
+      <div class="family-card card">
+        <img src="img/rings.jpg" alt="imagen de pareja" />
+        <div class="dads girl_dads">
+          <p>Reyna Granados Maldonado</p>
+          <p>&</p>
+          <p>Noé Gutiérrez Sotelo</p>
+          <p>- Anillos -</p>
+        </div>
+      </div>
+      <!--Goodfathers card-->
+      <div class="family-card card">
+        <img src="img/coins.jpg" alt="imagen de pareja" />
+        <div class="dads girl_dads">
+          <p>Irma Granados Maldonado</p>
+          <p>&</p>
+          <p>Ezequiel García Barajas</p>
+          <p>- Arras -</p>
+        </div>
+      </div>
+      <!--Goodfathers card-->
+      <div class="family-card card">
+        <img src="img/laazo.jpg" alt="imagen de pareja" />
+        <div class="dads girl_dads">
+          <p>Blanca Aidee Tiburcio Hernández</p>
+          <p>&</p>
+          <p>Carlos Granados Maldonado</p>
+          <p>- Lazo -</p>
+        </div>
+      </div>
+    </section>
+    <!--Gif section-->
     <section class="container gift_cont">
       <h3>Mesa de Regalos</h3>
       <div class="gift_botons">
@@ -213,6 +258,7 @@
           Sears</a>
       </div>
     </section>
+    <!--Confirmation section-->
     <section class="container">
       <div class="form_container">
         <iframe
@@ -222,6 +268,7 @@
         </iframe>
       </div>
     </section>
+    <!--Music Player-->
     <div id="music-player">
       <audio id="audio-player" src="music/music sample.mp3" type="audio/mpeg" loop autoplay></audio>
       <button id="music-button" class="myButton">⏸️</button>
@@ -231,8 +278,8 @@
   <footer>
     <div class="credits">
       <p>Pagina Creada por Sebastian Gutierrez Garcia</p>
-      <p>Deseandole lo mejor y amor eterno a la pareja</p>
-      <p class="emoji">🥳🎈</p>
+      <p>Deseandole lo mejor y amor eterno a los novios</p>
+      <img src="img/bob.gif" alt="bob bailando">
     </div>
   </footer>
   <script type="module" src="app.js"></script>

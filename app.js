@@ -46,6 +46,7 @@ function toggleMusicD() {
   }
 
   document.getElementById("welcome_mesagge").style.display = "none";
+  document.getElementById("glass_efect").style.display = "none";
   player.play();
 }
 
