@@ -39,10 +39,8 @@ function toggleMusic() {
 function toggleMusicD() {
   if (player.paused) {
     player.play();
-    buttonMusic.textContent = "⏸️";
   } else {
     player.pause();
-    buttonMusic.textContent = "▶️";
   }
 
   document.getElementById("welcome_mesagge").style.display = "none";
