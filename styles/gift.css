@@ -14,7 +14,7 @@
     font-weight: 500;
 }
 
-.gift_botons{
+.gift_button_sec{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -23,12 +23,12 @@
     width: 100%;
 }
 
-.gift_botons img{
+.gift_button_sec img{
     height: 30px;
     margin: auto;
 }
 
-.gift_botons a{
+.gift_button_sec a{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -38,8 +38,15 @@
 }
 
 @media only screen and (min-width: 720px){
-    .gift_botons a{
+    .gift_button_sec a{
         width: 30%;
         font-size: 1.5rem;
+    }
+}
+
+@media only screen and (min-width: 1280px){
+    .gift_button_sec a{
+        width: 35%;
+        font-size: 1.9rem;
     }
 }
