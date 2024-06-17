@@ -1,4 +1,4 @@
-.itinerario {
+.itinerary {
     text-align: center;
     background-image: url("../img/program.png");
     background-repeat: no-repeat;
@@ -9,7 +9,13 @@
 }
 
 @media only screen and (min-width: 720px) {
-    .itinerario {
+    .itinerary {
         height: 150vh;
+    }
+}
+
+@media only screen and (min-width: 720px) {
+    .itinerary{
+        height: 90vh;
     }
 }

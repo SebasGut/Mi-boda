@@ -38,3 +38,9 @@
         width: 40%;
     }
 }
+
+@media only screen and (min-width:1280px){
+    .us_photos img{
+        width: 30%;
+    }
+}

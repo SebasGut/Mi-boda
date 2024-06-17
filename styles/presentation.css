@@ -5,6 +5,9 @@
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+}
+
+.clock_cont {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,4 +37,14 @@
         padding-top: 1rem;
     }
 
+}
+
+@media only screen and (min-width: 1280px) {
+    .pre_img {
+        height: 90vh;
+    }
+
+    .clock_cont {
+        padding-top: 10%;
+    }
 }
