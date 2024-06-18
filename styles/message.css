@@ -18,8 +18,8 @@
 
 .img_body {
     background-image: url("../img/mensaje1.jpg");
-    height: 30vh;
-    background-position: center;
+    height: 45vh;
+    background-position:bottom;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
@@ -39,6 +39,8 @@
 @media only screen and (min-width: 720px) {
     .img_body{
         height: 100vh;
+        background-image: url("../img/mensaje2.jpg");
+        background-position:center;
     }
     .img_body .message_paragraph {
         font-size: 3rem;
@@ -57,7 +59,7 @@
     }
 }
 
-@media only screen and (min-width: 720px) {
+@media only screen and (min-width: 1280px) {
     .img_body{
         height: 80vh;
     }

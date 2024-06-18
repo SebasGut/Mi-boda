@@ -46,7 +46,7 @@
 
 @media only screen and (min-width: 1280px){
     .gift_button_sec a{
-        width: 35%;
+        max-width: 384px;
         font-size: 1.9rem;
     }
 }
